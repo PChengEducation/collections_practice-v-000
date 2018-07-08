@@ -8,6 +8,7 @@ def sort_array_desc(array2)
   array2.sort do |a, b|
     a <=> b
   end
+  array2
   descending_array2 = []
   i = 0
   while i < array2.length
