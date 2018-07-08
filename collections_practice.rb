@@ -9,9 +9,10 @@ def sort_array_desc(array2)
     a <=> b
   end
   descending_array2 = []
-  array2.each do |i|
-    descending_array2 << array2[i]
-    array2.shift
+  i = 0
+  while i < array2.length
+    descending_array2 << array2[-1]
+    array2.pop
   end
   descending_array2
 end
