@@ -15,5 +15,5 @@ def sort_array_desc(array2)
     array2.pop
     i = i + 1
   end
-  descending_array2
+  return descending_array2
 end
