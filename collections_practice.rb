@@ -11,7 +11,7 @@ def sort_array_desc(array2)
   descending_array2 = []
   array2.each do |i|
     descending_array2 << array2[i]
-    array2[i].shift
+    array2.shift
   end
   descending_array2
 end
