@@ -15,3 +15,8 @@ array.sort do |a, b|
   a.length <=> b.length
 end
 end
+
+def swap_element(array)
+  array [1], array [2] = array [2], array [1]
+  array
+end
