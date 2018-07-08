@@ -13,7 +13,7 @@ def sort_array_desc(array2)
   while i < array2.length
     descending_array2 << array2[-1]
     array2.pop
-    i += 1
+    #i += 1
   end
   descending_array2
 end
